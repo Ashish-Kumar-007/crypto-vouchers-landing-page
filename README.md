@@ -60,7 +60,7 @@ The chosen typography ensures readability and a modern appearance:
 
 To explore and contribute to this project, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/yourusername/crypto-box.git`
+1. Clone this repository: `git clone https://github.com/Ashish-Kumar-007/crypto-box.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 
