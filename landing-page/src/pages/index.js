@@ -4,7 +4,7 @@ import HeroSection from '@/Components/HeroSection'
 import FeaturesSection from '@/Components/FeaturesSection'
 import AboutUsPage from '@/Components/AboutUsPage'
 import Footer from '@/Components/Footer'
-import Dashboard from '@/Components/Dashboard'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <main
     >
-      {/* <HeroSection />
+      <HeroSection />
       <FeaturesSection />
       <AboutUsPage />
-      <Footer /> */}
-      <Dashboard />
+      <Footer />
+
     </main>
   )
 }
