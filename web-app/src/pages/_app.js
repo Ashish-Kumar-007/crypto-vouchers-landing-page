@@ -9,7 +9,7 @@ import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import { mainnet, polygon, optimism, arbitrum, base, zora } from "wagmi/chains";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
-import Header from "@/components/Header";
+import Layout from "../Components/Layout";
 const { chains, publicClient } = configureChains(
   [mainnet, polygon, optimism, arbitrum, base, zora],
   [alchemyProvider({ apiKey: process.env.ALCHEMY_ID }), publicProvider()]
@@ -39,8 +39,10 @@ export default function App({ Component, pageProps }) {
           fontStack: "system",
         })}
       >
-        <Header />
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+        
       </RainbowKitProvider>
     </WagmiConfig>
   );
