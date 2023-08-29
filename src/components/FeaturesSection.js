@@ -29,7 +29,7 @@ const FeaturesSection = () => {
   ];
 
   return (
-    <section className="py-12 bg-gradient-to-b from-indigo-600 to-gray-900 text-white">
+    <section className="py-12 bg-gradient-to-r from-blue-600 to-purple-900 text-white">
       <div className="container mx-auto">
         <h2 className="text-3xl font-semibold text-center mb-8">
           Key Features
@@ -38,7 +38,7 @@ const FeaturesSection = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-gray-900 to-gray-800 p-6 rounded-lg shadow-md transition-transform transform hover:-translate-y-1"
+              className="bg-gradient-to-b from-blue-600 to-purple-800 p-6 rounded-lg shadow-md transition-transform transform hover:-translate-y-1"
             >
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-blue-500 text-white">
                 {/* Replace with actual icon */}

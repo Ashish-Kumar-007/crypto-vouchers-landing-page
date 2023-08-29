@@ -1,3 +1,4 @@
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Link from "next/link";
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
     { name: "Contact", route: "/contact" },
   ];
   return (
-    <header className="bg-gradient-to-r from-violet-500 to-cyan-800 py-4 font-chakra-petch">
+    <header className="bg-gradient-to-r from-blue-600 to-purple-900 py-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <Link href="/">
@@ -27,12 +28,7 @@ const Header = () => {
           ))}
         </nav>
         <div>
-          <a href="#" className="text-white hover:text-blue-300">
-            Login
-          </a>
-          <a href="#" className="text-white hover:text-blue-300 ml-4">
-            Sign Up
-          </a>
+         <ConnectButton />
         </div>
       </div>
     </header>

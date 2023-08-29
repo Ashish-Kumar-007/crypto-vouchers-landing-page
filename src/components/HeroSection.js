@@ -3,7 +3,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="h-screen flex justify-center items-center bg-gradient-to-r from-blue-500 to-purple-600 py-20 text-white">
+    <section className="h-screen flex justify-center items-center bg-gradient-to-r from-blue-600 to-purple-900 py-20 text-white">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
           Generate Crypto Vouchers with Ease
